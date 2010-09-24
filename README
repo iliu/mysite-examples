@@ -1,1 +1,8 @@
-This site stores the source code of the blog entries of my website
+This site stores the source code of the blog entries of my website. 
+The master branch just has a basic rails application generated with the nifty generator gem and a controller that is home. There are several branches that contain different project source codes that can be pulled. 
+
+Branches:
+ * fb_graph_gem - This is a demo of the fb_graph_gem
+ * fb_graph_cache - This is a demo of caching facebook graph api call results in local database
+
+To get started, clone the repository and run `bundle install` and `rake db:migrate`, then `rails server` to start the web server. Point your browser to http://localhost:3000 and you should be able to see the demo in action!
