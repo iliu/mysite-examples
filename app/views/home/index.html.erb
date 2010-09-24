@@ -1,2 +1,17 @@
 <h1>Home#index</h1>
 <p>Find me in app/views/home/index.html.erb</p>
+
+<h1><%= link_to @page.name, @page.link %></h1>
+<storng>Upcoming Events:</strong> <br />
+<hr />
+  <% @upcoming_events.each do |event| %>
+    <%= event.name %> - <%= event.start_time %> <br />
+  <% end %>
+<br />
+<br />
+<storng>Past Events:</strong> <br />
+<hr />
+  <% @past_events.each do |event| %>
+    <%= event.name %> - <%= event.start_time %> <br />
+  <% end %>
+
