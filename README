@@ -1,1 +1,7 @@
 This site stores the source code of the blog entries of my website
+This particular branch stores the fb_graph demo. This is a demo to demonstrate how to use the fb_graph gem written by nov matake to access the facebook graph api. 
+
+To run this demo, clone this branch of the repository and run `bundle install` to install the required gems. There is no database calls so `rake db:migrate` is not neccessary. Run `rake server` to start the web server and point your browser to http://localhost:3000 to see the demo.
+
+The blog post about this demo is here:
+http://www.eecs.berkeley.edu/~liuisaac/site/blog/201009/ror-and-facebook-with-fb-graph.html
