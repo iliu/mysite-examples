@@ -1,0 +1,13 @@
+development: &defaults
+  app_id: 155127404509858
+  client_id: 368e1738eba0fe36b5b7e3449b3b3c87
+  client_secret: 691fe13cf725d9a5f1a8b038e9dbdc51
+  perms: manage_pages
+  page_id: 104849149578526
+
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults
