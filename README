@@ -8,9 +8,8 @@ To run this demo:
  1. clone the repository and checkout the remote branch "fb_graph_gem": 
        `git checkout -b fb_graph_gem origin/fb_graph_gem`
  2. Run `bundle install` to install the required gems. 
- 3. Run `$RAILS_ROOT/jobs/wrap_facebook_update.sh` to poll events from a dummy facebook page
- 4. Run `rake server` to start the web server
- 5. Point your browser to http://localhost:3000 to see the demo.
+ 3. Run `rake server` to start the web server
+ 4. Point your browser to http://localhost:3000 to see the demo.
 
 The blog post about this demo is here:
 http://www.eecs.berkeley.edu/~liuisaac/site/blog/201009/ror-and-facebook-with-fb-graph.html
