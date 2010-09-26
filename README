@@ -14,4 +14,4 @@ To run this demo:
  6. Point your browser to http://localhost:3000 to see the demo.
 
 The blog post about this demo is here:
-http://www.eecs.berkeley.edu/~liuisaac/site/blog/201009/
+http://www.eecs.berkeley.edu/~liuisaac/site/blog/201009/caching-facebook-api-call-results-in-ruby-on-rails.html
