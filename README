@@ -5,4 +5,13 @@ Branches:
  * fb_graph_gem - This is a demo of the fb_graph_gem
  * fb_graph_cache - This is a demo of caching facebook graph api call results in local database
 
-To get started, clone the repository and run `bundle install` and `rake db:migrate`, then `rails server` to start the web server. Point your browser to http://localhost:3000 and you should be able to see the demo in action!
+To get access the branches:
+
+ 1. Clone the repository 
+ 2. List all the remote branches with "git branch -a"
+ 3. Checkout the remote branch:
+      git checkout -b <created local branch name> <remote branch name>
+ 4. Follow the README after your check out the branch to run the demos
+
+
+
